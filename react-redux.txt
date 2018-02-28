@@ -1,3 +1,4 @@
+http://cn.redux.js.org/docs/basics/Store.html
 ********
 前台的基本概念： 
 URL-访问什么页面
@@ -119,5 +120,13 @@ action的好处就是知道应用中到底发生了什么。为了把action和st
  reducer就是一个纯函数,不要执行任何有副作用的操作;
 　(previousState, action) => newState
  
- 
-
+****store******
+  actions用来描述发生了什么，reducers根据action来更新state;
+  但是二者如何连接起来，这需要store，主要有以下职责；
+　　　>维持应用的state;
+   >提供getState()方法获取state;
+   >提供dispatch(action) 方法更新state;
+   >通过subscribe(listener)注册监听器;
+   >通过subscribe(listener)返回的函数注销监听器;
+  
+****
