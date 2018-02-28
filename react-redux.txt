@@ -119,4 +119,5 @@ action的好处就是知道应用中到底发生了什么。为了把action和st
  reducer就是一个纯函数,不要执行任何有副作用的操作;
 　(previousState, action) => newState
  
+ 
 
