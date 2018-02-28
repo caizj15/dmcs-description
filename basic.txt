@@ -1,0 +1,6 @@
+******
+导入包的差别:
+import xxx from '....'引入的，xxx已经是默认导出项的别名了;　export default
+import {xxx} from '....'引入的，{xxx} 只是导出项的名字，而并非导出时的名字;export
+******
+如何理解各个组件产生的事件对程序产生的影响
