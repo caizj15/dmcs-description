@@ -1,0 +1,6 @@
+*********
+
+->./index.js
+->./router.js->BascicLayout.js
+->BasicLayout.js(Redirect)->/dashboard/analysis/
+
