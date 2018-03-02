@@ -1,5 +1,5 @@
 http://cn.redux.js.org/docs/basics/Store.html
-********
+*************************
 前台的基本概念： 
 URL-访问什么页面
 Data-显示什么信息
@@ -19,8 +19,7 @@ react-router-redux可以同步route信息到state
 　利用action生成器也就是function生成函数
 　使用action,利用dispatch方法
 ***store*******
-　　store对象保存应用的状态并提供一些帮助方法来存取状态，分发状态以及注册监听。全部state由一个　store来表示。
-  
+　　store对象保存应用的状态并提供一些帮助方法来存取状态，分发状态以及注册监听。全部state由一个store来表示。  
 ***reducers******
   reducer基于数组reduce方法，接收一个回调(reducer)让你从多个值中获取单个值，整数和，或者一个一系列值的累积。在Redux中，reducer就是获取这个应用的当前状态和事件，然后返回一个新状态的函数。
 　　
